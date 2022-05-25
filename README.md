@@ -53,7 +53,7 @@ Sometimes, a slide contains regions that should not be included in the quantific
 ### Output
 The test slide folder will contain a file stained_fractions.txt, which summarizes the fraction of pixels classified as stained in each region of each slide (and the full slide, if `--include_full`).  
 
-For each slide_name.ndpi file, a folder slide_name is created (also inside the test images folder) with the following files:  
+For each slide_name.ndpi (or other extension) file, a folder slide_name is created (also inside the test images folder) with the following files:  
 * thumbnail.png: A low-resolution image of the entire slide, overlaid with boxes showing the location of each numbered region.  
 * stained_fractions.txt: A two-column table where the first column is the region ID (with 0 denoting the entire image, included only if `--include_full`) and the second column is the fraction of pixels (excluding whitespace unless `--include_whitespace`) whose normalized red - blue color is above stain_threshold.  
 * histogram.png: A histogram of normalized red - blue color for each region, all regions combined, and the full image (if `--include_full`)  
