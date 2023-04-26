@@ -2,6 +2,9 @@
 
 This repository contains the DAB-quant code for use in quantifying DAB immunohistochemical (IHC) staining in tissue samples. In a nutshell, DAB-quant measures the fraction of tissue area that is stained brown, when all tissue is also stained with hematoxylin (light blue). It does so using a threshold determined by control slides, which contain only blue staining (but no brown). DAB-quant can process slides in full or by sampling random regions, to measure staining heterogeneity and allow excluding any problematic portions of a sample. Here we provide usage instructions.
 
+This repository is accompanied by the following paper:
+https://pubmed.ncbi.nlm.nih.gov/35857792/
+
 ## Preliminaries
 (skip these if you already have git and conda)
 1. Install git (downloads are available from https://git-scm.com/downloads)
