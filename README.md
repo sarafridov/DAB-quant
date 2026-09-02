@@ -16,7 +16,7 @@ https://pubmed.ncbi.nlm.nih.gov/35857792/
 3. Once you are in the desired location, run `git clone https://github.com/sarafridov/DAB-quant.git`. This will create a folder called DAB-quant, with the quantification code inside it. Enter this folder with the command `cd DAB-quant`.
 4. Run the command `conda create -n py38dabquant python=3.8 -y` to create a python environment. You can name the environment whatever you want; here we use py38dabquant.
 5. Once the environment is created, activate it by running the command `conda activate py38dabquant` (or replace py38dabquant with your own environment name). You should see (py38dabquant) appear at the beginning of the command prompt to indicate the environment is active.
-6. Install the necessary packages by running the command `pip install -r requirements.txt` from inside the DAB-quant directory.
+6. Install the necessary packages by running the command `pip install -r requirements.txt` from inside the DAB-quant directory `cd DAB-quant`.
 7. Finally, we need to install the OpenSlide package to read IHC slides. Here, the instructions are slightly different on Mac vs. Windows.
   * Mac: If you don’t have Homebrew already, install it (follow the instructions at https://brew.sh/). Then, run the command `brew install openslide` (while the py38dabquant environment is active).
   * Windows: Download OpenSlide for Windows from https://openslide.org/download/ (slide quantification has been tested with the 64-bit Windows binary dated 2017-11-22). Unzip the downloaded folder, move it into the DAB-quant directory, and rename it (the unzipped folder) openslide.
